@@ -1,0 +1,20 @@
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 10px;
+    gap: 10px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.25em;
+    font-weight: 800;
+    
+}
+
+
+
+nav, ul, li {
+    border: 1px solid red;
+}
