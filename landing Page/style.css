@@ -1,19 +1,40 @@
-* {
-    border: 2px solid red;
-}
+ * {
+    /* border: 2px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+} 
 
 .navList {
     display: flex;
     list-style-type: none;
     align-items: baseline;
-    padding: 10px;
+    padding: 10px 100px;
     gap: 10px;
+}
+
+button {
+    background-color: #3882F6;
     color: #F9FAF8;
-    
+    padding: 5px 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+.informationPic img{
+    border: 3px solid #0080FE;
+    border-radius: 15px;
+}
+
+.informationPic Figcaption{
+    text-align: center;
 }
 
 li{
     font-size: 18px;
+    color: #F9FAF8;
 }
 
 .logo {
@@ -22,11 +43,7 @@ li{
     font-weight: 900;
 }
 
-.topSection {
-    text-align:left;
-    padding: 10px;
-    color: #F9FAF8;
-}
+
 
 .sectionOne h1{
     font-size: 48px;
@@ -44,23 +61,42 @@ img{
     align-items: center;
     justify-content: center;
     flex: 1 1 0%;
+    padding: 0px 100px;
+    gap: 20px;
+}
+
+.sectionTwo h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 h2 {
     text-align: center;
+    padding: 25px;
 }
 
 .topSection {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content:baseline;
+    padding: 100px 100px;
+    justify-content:flex-start;
+    color: #F9FAF8;
+    gap: 20px;
 }
 
 .topSection div {
     min-width: 0;
-    flex: 1 1 0%;
+    flex: 1 1 2px;
 }
+
+.topSection.sectionOne{
+    display: flex;
+    flex-direction: column;
+
+}
+
 header {
     background-color: #1f2937;
 }
