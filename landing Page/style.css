@@ -124,6 +124,7 @@ header {
 
 .sectionThreeContainer {
     padding: 50px 100px;
+    
 }
 
 .sectionThreeItem {
@@ -132,6 +133,8 @@ header {
     color: #f9faf8;
     padding: 30px 100px;
     justify-content:baseline;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
 }
 
 .sectionThreeItemP1 {
