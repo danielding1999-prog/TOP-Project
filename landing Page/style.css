@@ -61,7 +61,7 @@ img{
     align-items: center;
     justify-content: center;
     flex: 1 1 0%;
-    padding: 0px 100px;
+    padding: 0px 100px 50px;
     gap: 20px;
 }
 
@@ -99,4 +99,25 @@ h2 {
 
 header {
     background-color: #1f2937;
+}
+
+.custRev {
+    padding: 100px 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.custRev .quote {
+    font-size: 36px;
+    color: #1f2937;
+    flex: 1 1 0;
+}
+
+.custRev .author {
+    align-self: flex-end;
+    flex: 1 1 auto;
+    font-size: 22px;
+    font-weight: 300;
+    flex: 1 1 0;
 }
